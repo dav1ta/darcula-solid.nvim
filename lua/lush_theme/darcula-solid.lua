@@ -181,7 +181,7 @@ Statement      { fg=orange }; -- (preferred) any statement
 Conditional    { Statement };
 Repeat         { Statement };
 Label          { Statement };       -- case, default, etc.
-Operator       { fg=fg };
+Operator       {Conditional};
 Keyword        { Statement };    -- any other keyword
 Exception      { fg=red };
 
